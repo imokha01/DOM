@@ -34,8 +34,9 @@ form.addEventListener("submit", function(e) {
     pullRequestChecked.checked = false,
     deploymentChecked.checked = false,
     security.checked = true,
-    range.value = "0"
+    range.value = ""
   } 
+
   });
 
 

@@ -13,18 +13,7 @@ form.addEventListener("submit", function(e) {
   const security = document.getElementById("check");
   const range = document.getElementById("range");
   const button = document.getElementById("save");
-
-  console.log(
-    "First Name: ", firstName.value,
-    "Last Name: ", lastName.value,
-    "Country: ", country.value,
-    "Weekly Report: ", weekReportChecked.checked,
-    "Pull Request: ", pullRequestChecked.checked,
-    "Deployment: ", deploymentChecked.checked,
-    "security: ", security.checked,
-    "Range: ", range.value
-  )
-
+    
   if(firstName.value !== "" && lastName.value !== "" && country.value !== ""){
     confirm("Are you sure you want to submit the form");
     firstName.value = "",
@@ -34,9 +23,12 @@ form.addEventListener("submit", function(e) {
     pullRequestChecked.checked = false,
     deploymentChecked.checked = false,
     security.checked = true,
-    range.value = "0"
+    range.value = ""
   } 
-  });
+
+
+
+  } );
 
 
 
