@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+<body>
+  <div class="form_container">
+    <form action="#">
+      <div>
+          <h1>User setting</h1>
+          <p id="user">Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <hr>
+      <div>
+        <h2>Personal Info</h2>
+        <input type="text" class="firstName" placeholder="First Name">
+        <input type="text" class="lastName" placeholder="Last Name"> <br>
+        <select>
+            <option value="country" disabled hidden selected>Country</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="ghana">Ghana</option>
+            <option value="algeria">Algeria</option>
+        </select>
+        <hr>
+        <div>
+          <h2>Notifications</h2>
+          <div class="weeklyReport">
+            <p class="week-para">Weekly reports</p>
+            <!-- Rounded switch -->
+            <label class="switch">
+                 <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="pullRequest">
+            <p class="pull-para">Pull request</p>
+            <!-- Rounded switch -->
+            <label class="switch">
+                 <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="deployment">
+            <p class="depoly-para">Deployment trigger</p>
+            <!-- Rounded switch -->
+          <label class="switch">
+                 <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+          </div>
+          <hr>
+          
+
+
+        </div>
+      </div>
+    </form>
+
+
+  </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
